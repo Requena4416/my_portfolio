@@ -31,14 +31,44 @@ a {
 
 .profile-card {
     padding: 5%;
+    text-align: center;
+    
+    .profile-img {
+        border-radius: 50%;
+        width: 200px;
+    }
+    
+    .profile-text {
+        text-align: left;
+        display: inline-block;
+        vertical-align: top;
+        margin: 30px;
+    }
 }
 
-.profile-img {
-    width: 200px;
+.banner-title {
+    background-color: rgb(0, 103, 103);
+    padding: 50px;
+    text-align: center;
 }
 
-.profile-text {
-    display: inline-block;
-    vertical-align: top;
-    margin: 30px;
+.projects {
+    padding: 5%;
+    
+    img {
+        border-bottom: solid 4px rgb(0, 103, 103);
+        width: 450px;
+        display: inline-block;
+    }
+
+    .project-card {
+        border: solid 4px rgb(0, 103, 103);
+        display: inline-block;
+        background-color: aliceblue;
+        color: black;
+    }
+
+    .project-text {
+        text-align: center;
+    }
 }
